@@ -1,0 +1,136 @@
+/* POUR General module */
+.lignebtaccessib .btn {
+  margin-bottom: 10px;
+}
+
+/* POUR Font dyslexic */
+@font-face {
+  font-family: dyslexic;
+  src: url("../fonts/OpenDyslexic3-Regular.ttf");
+}
+body.dyslexicrgaa {
+  font-family: dyslexic!important;
+  line-height: 10px;
+}
+
+/* POUR Increase font */
+body.fs {
+  font-size: 140%!important;
+}
+body.fsx {
+  font-size: 200%!important;
+}
+body.fsxx {
+  font-size: 400%!important;
+}
+
+/* POUR Contrast */
+.contrastrgaa * {
+  background: #000080 !important;
+  color: #ff0 !important;
+}
+body.contrastrgaa {
+  background: #000080 !important;
+  color: #ff0 !important;
+}
+.contrastrgaa .moduletable,
+.contrastrgaa .modcontent,
+.contrastrgaa .colgche,
+.contrastrgaa .coldrte,
+.contrastrgaa .colctre,
+.contrastrgaa .well,
+.contrastrgaa .well-default,
+.contrastrgaa .posttext-login,
+.contrastrgaa .navbar-default,
+.contrastrgaa .alert-info,
+.contrastrgaa .alert-warning,
+.contrastrgaa .alert-danger {
+  background: #000080!important;
+  color: #ff0 !important;
+  border: 0px;
+}
+.contrastrgaa .moduletable {
+  border-bottom: 1px solid #ff0;
+}
+.contrastrgaa h1,
+.contrastrgaa h2,
+.contrastrgaa h3,
+.contrastrgaa h4,
+.contrastrgaa h4,
+.contrastrgaa h5,
+.contrastrgaa h6 {
+  background: #000080!important;
+  color: #ff0 !important;
+}
+.contrastrgaa .btn-default {
+  background: #000080!important;
+  color: #ff0 !important;
+  border-color: #ffff00 !important;
+}
+.contrastrgaa .dropdown-menu {
+  background: #ff0!important;
+}
+.contrastrgaa .breadcrumb > .active,
+.contrastrgaa p,
+.contrastrgaa ul li,
+.contrastrgaa dl,
+.contrastrgaa dd {
+  color: #ffff00 !important;
+}
+.contrastrgaa a,
+.contrastrgaa span.separator {
+  color: #000080!important;
+  background: #ff0!important;
+}
+.contrastrgaa a:hover,
+.contrastrgaa a:focus {
+  color: #000080!important;
+  background: #ff0!important;
+  text-decoration: underline!important;
+}
+.contrastrgaa .moduletable,
+.contrastrgaa .modcontent,
+.contrastrgaa h1,
+.contrastrgaa h2,
+.contrastrgaa h3,
+.contrastrgaa h4,
+.contrastrgaa h4,
+.contrastrgaa h5,
+.contrastrgaa h6 {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.contrastrgaa .alert {
+  padding: 0px;
+}
+.contrastrgaa .form-control {
+  border: 1px solid #ffff00 !important;
+}
+.contrastrgaa .form-control::-webkit-input-placeholder {
+  color: #ffff00 !important;
+}
+.contrastrgaa .form-control::-moz-placeholder {
+  color: #ffff00 !important;
+}
+.contrastrgaa .form-control:-ms-input-placeholder {
+  color: #ffff00 !important;
+}
+.contrastrgaa .form-control:-moz-placeholder {
+  color: #ffff00 !important;
+}
+.contrastrgaa .form-control:focus::-webkit-input-placeholder {
+  color: #ff0 !important;
+  opacity: 0;
+}
+.contrastrgaa .form-control:focus::-moz-placeholder {
+  color: #ff0 !important;
+  opacity: 0;
+}
+.contrastrgaa .form-control:focus:-ms-input-placeholder {
+  color: #ff0 !important;
+  opacity: 0;
+}
+.contrastrgaa .form-control:focus:-moz-placeholder {
+  color: #ff0 !important;
+  opacity: 0;
+}

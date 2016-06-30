@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>MOD_C3RBRGAA_TOOLS</name>
+    <author>C3rb Informatique</author>
+    <version>1.0.01</version>
+    <description>MOD_C3RBRGAA_DESC</description>
+    <files>
+        <filename>mod_c3rbrgaa_tools.xml</filename>
+        <filename module="mod_c3rbrgaa_tools">mod_c3rbrgaa_tools.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <media destination="mod_c3rbrgaa_tools" folder="media">
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>fonts</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </media>
+    <languages>
+        <language tag="fr-FR">language/fr-FR/fr-FR.mod_c3rbrgaa_tools.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.mod_c3rbrgaa_tools.sys.ini</language>
+    </languages>
+    <config>
+    <fields name="params">
+        <fieldset name="basic">
+            <field
+                    name="contrast_opt01"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="1"
+                    label="MOD_C3RBRGAA_CONTRAST_LABEL"
+                    description="MOD_C3RBRGAA_CONTRAST_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+        </fieldset>
+        <fieldset name="basic">
+            <field
+                    name="dyslexic_opt"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="1"
+                    label="MOD_C3RBRGAA_DYSLEXIC_LABEL"
+                    description="MOD_C3RBRGAA_DYSLEXIC_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+        </fieldset>
+        <fieldset name="basic">
+            <field
+                    name="fs_opt"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="1"
+                    label="MOD_C3RBRGAA_FS_LABEL"
+                    description="MOD_C3RBRGAA_FS_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+        </fieldset>
+    </fields>
+    </config>
+</extension>
